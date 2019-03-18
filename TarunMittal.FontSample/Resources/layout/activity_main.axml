@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+	android:orientation="vertical"
+    android:layout_height="match_parent">
+	<tarunmittal.fontsample.MyTextView  
+	android:id="@+id/MyTextView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Bingabong Flingflong"
+	android:textStyle="bold"
+    app:customFont="Fonts/Molot.otf"/>
+
+	<tarunmittal.fontsample.MyTextView  
+	android:id="@+id/MyTextView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Bingabong Flingflong"
+	android:textStyle="medium"
+    android:layout_marginTop="25dp"
+    app:customFont="Fonts/Molot.otf"/>
+</LinearLayout>
